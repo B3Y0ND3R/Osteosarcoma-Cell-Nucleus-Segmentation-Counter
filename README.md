@@ -123,16 +123,9 @@ For each detected nucleus, the application calculates:
 ```
 project/
 ├── nuclei_ui.py              # Main web application (Gradio interface)
-├── a.py                      # Experimental script with watershed segmentation
-├── b.py                      # Experimental script with noise filtering
-├── c.py                      # Experimental script with full pipeline
-├── d.py                      # Experimental script with boundary detection
-├── requirements.txt         # Python dependencies
-├── README.md                 # This file
-├── README_UI.md              # UI-specific documentation
-├── INTERACTIVE_FEATURES.md   # Interactive features guide
-├── 6.jpg, 7.png, 9.png, 10.png  # Sample microscopy images
-└── de.txt                    # Additional notes/documentation
+├── requirements.txt          # Python dependencies
+├── README.md                 # ReadMe file 
+└── 6.jpg, ..                 # Sample microscopy images
 ```
 
 ## Educational Value
@@ -182,16 +175,6 @@ descriptors = results['descriptors']
 print(f"Detected {nuclei_count} nuclei")
 ```
 
-## Troubleshooting
-
-**Issue**: Application won't start
-- **Solution**: Ensure all dependencies are installed: `pip install -r requirements.txt`
-
-**Issue**: Images not processing correctly
-- **Solution**: Verify your image is in a supported format (JPG, PNG) and has sufficient contrast
-
-**Issue**: Low nuclei detection accuracy
-- **Solution**: Try adjusting the Gaussian blur sigma parameter or experiment with different equalization methods
 
 ## Notes
 
@@ -216,8 +199,4 @@ This project is provided as-is for educational and research purposes.
 
 This project demonstrates practical applications of computer vision techniques in medical image analysis, specifically for osteosarcoma cell nucleus segmentation. The manual implementations of standard algorithms serve both educational and research purposes.
 
----
 
-**Happy Analyzing!**
-
-If you find this tool useful for your research or learning, we'd love to hear about your experience!

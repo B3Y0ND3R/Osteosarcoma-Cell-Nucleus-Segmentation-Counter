@@ -94,7 +94,7 @@ The application processes images through a carefully designed 10-step pipeline:
 9. **Boundary Detection**: Extracts precise cell boundaries
 10. **Final Output**: Overlays red boundaries and numbered labels on the original image, counts nuclei
 
-![Final Segmentation Result](Picture1.png)
+![Web Interface](Picture1.png)
 
 
 ## Technical Details

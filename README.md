@@ -95,7 +95,7 @@ The application processes images through a carefully designed 10-step pipeline:
 10. **Final Output**: Overlays red boundaries and numbered labels on the original image, counts nuclei
 
 ![Final Segmentation Result](Picture1.png)
-*Final output showing detected nuclei with red boundaries and numbered labels overlaid on the original image*
+
 
 ## Technical Details
 
